@@ -1,5 +1,16 @@
-num = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
-else:
-   print("{0} is Odd".format(num))
+def isEven(number):
+   if number%2==0:
+      print("this is an even number")
+   else:
+         print("this is an odd number")
+num=int(input("Enter a number "))
+isEven(num)
+
+print('hello')
+         
+      
+
+
+
+
+
